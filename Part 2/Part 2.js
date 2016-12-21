@@ -32,3 +32,66 @@
  */
 
 //writ your code here .....
+
+	function club(name){
+		var ss={}
+		ss.players=players;
+		ss.add=add;
+		ss.increase=increase;
+		ss.check=check;
+		ss.decrease=decrease;
+		ss.sortPalyerBy=sortPalyerBy;
+		return ss;
+	};
+	var players =function(names){
+		acc=[]
+		return acc.push(names);
+	};
+	var add =function(age, position, level, availability){
+		return "age :"age,
+				"position :" position,
+				"level :" level,
+				"availability :"availability
+
+	};
+	var increase =function(arrayOfPlayers,init level){
+		var arr=[]
+		var level=init level;
+		each(arrayOfPlayers,function(ele,i){
+			arr=(ele.length-1)
+			level++;
+		})
+		return arr.push()
+	};
+}
+	var check =function(player){
+		var arr=Array.from(arg)
+		if (arg.length ===0){
+			return "the player is not available";
+		}
+			else {
+				return "the player is available";
+			}
+		}
+	};
+var decrease= function(arrayOfPlayers,init level){
+		var arr=[]
+		var level=init level;
+		each(arrayOfPlayers,function(ele,i){
+			arr=(ele.length-1)
+			level--;
+		})
+		return arr.push()
+};
+ var item= "age":players age ||"name":players name ||"position":players position
+	 || "level":players level|| "availability":players availability ;
+var sortPalyerBy= function(arrayOfPlayers,item){
+		 for (var i = 0; i < arrayOfPlayers .length; i++) {
+			 arrayOfPlayers[i].item.yourArray.sort(function(a, b) {
+			return 	item.(a,b)
+		
+}
+   
+      
+    };
+

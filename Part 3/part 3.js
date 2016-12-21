@@ -27,3 +27,5 @@
 3. Write javascript function when user type text inside the input text and click the "Add" 
     button it will add the text to the ul elemtn as li
 */
+ $("p").("background-color","blue")
+$()
